@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+//@import url('https://fonts.googleapis.com/css?family=Lato');
 @import "bootstrap";
 
 .clear {
@@ -35,6 +35,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'fira_sansbook';
+  font-weight: bold;
 }
 header {
   border-top: 9px solid #222222;
@@ -43,8 +45,8 @@ hr {
   clear:both;
 }
 h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'fira_sansbold_italic';
 }
 h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'fira_sansbook';
 }
