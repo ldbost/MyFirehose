@@ -15,6 +15,9 @@ class QuotesController < ApplicationController
         redirect_to root_path
     end
     
+    def about
+        
+    end
     
     private
 
@@ -22,7 +25,5 @@ class QuotesController < ApplicationController
         params.require(:quote).permit(:saying, :author)
     end
     
-    def about
-        
-    end
+    
 end
